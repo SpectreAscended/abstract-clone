@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 :root {
   --color-primary: #4c5fd5;
@@ -84,6 +84,8 @@ a:visited {
   text-decoration: underline;
 }
 
+/* Buttons */
+
 .btn {
   padding: 0.75rem 1.5rem;
   font-size: inherit;
@@ -131,4 +133,37 @@ a:visited {
   position: absolute;
   top: 0.65rem;
   left: 1.2rem;
+}
+
+/* Hero section */
+
+.section__hero {
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 5rem;
+}
+
+.hero__search-wrapper {
+  margin: 5rem auto;
+}
+
+.heading--hero {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.hero__form {
+  max-width: 60rem;
+  background-color: orangered;
+}
+
+.hero__form-input {
+  width: 100%;
+  display: block;
+  font-size: inherit;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--color-black);
 }
