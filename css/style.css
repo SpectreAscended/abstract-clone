@@ -197,7 +197,7 @@ a:visited {
 .directory__list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 4rem auto;
+  margin: 6rem auto;
   max-width: 100rem;
 }
 
@@ -212,7 +212,7 @@ a:visited {
 }
 
 .directory__list-item figure {
-  max-width: 7rem;
+  max-width: 6rem;
 }
 
 .directory__list-item figure img {
@@ -237,3 +237,5 @@ a:visited {
 .directory__list-item--text-content a:active {
   text-decoration: underline;
 }
+
+/* Footer */
