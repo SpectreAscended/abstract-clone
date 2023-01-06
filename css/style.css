@@ -32,6 +32,10 @@ a:visited {
   display: inline-block;
 }
 
+ul {
+  list-style: none;
+}
+
 .nav {
   background-color: var(--color-black);
   padding: 1.6rem 5rem;
@@ -239,3 +243,69 @@ a:visited {
 }
 
 /* Footer */
+
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding-block: 2rem;
+}
+
+.footer a:hover,
+.footer a:active {
+  text-decoration: underline;
+}
+
+.footer__container {
+  max-width: 100rem;
+  margin: 2rem auto;
+}
+
+.footer__container-sections {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.footer__container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-us {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-us a:link,
+.contact-us a:visited {
+  font-size: 0.9rem;
+}
+
+.footer__container-list-item--heading h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer__copyright-container {
+  align-self: flex-end;
+  margin-top: 10rem;
+}
+
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer__copyright figure {
+  max-width: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer__copyright figure img {
+  width: 100%;
+}
