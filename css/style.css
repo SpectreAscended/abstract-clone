@@ -38,7 +38,7 @@ ul {
 
 .nav {
   background-color: var(--color-black);
-  padding: 1.6rem 5rem;
+  padding: 1rem 5rem;
   color: var(--color-white);
   font-size: 1.4rem;
   display: flex;
@@ -66,16 +66,6 @@ ul {
 .nav__logo:hover {
   filter: brightness(0.8);
 }
-
-/* .nav__logo--link a:link,
-.nav__logo--link a:visited {
-  transition: color 200ms ease;
-}
-
-.nav__logo--link a:hover,
-.nav__logo--link a:active {
-  color: var(--color-grey);
-} */
 
 .nav__help-center {
   display: inline-block;
