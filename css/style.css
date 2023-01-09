@@ -42,6 +42,7 @@ ul {
   color: var(--color-white);
   font-size: 1.4rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -76,6 +77,57 @@ ul {
 .nav__help-center a:hover,
 .nav__help-center a:active {
   text-decoration: underline;
+}
+
+.desktop-sign-in {
+  display: none;
+}
+
+.mobile-search {
+  max-width: 1.6rem;
+}
+
+.mobile-search-icon {
+  width: 100%;
+}
+
+.nav__mobile-sign-in-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.mobile-menu {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.mobile-menu--icon {
+  height: 2px;
+  width: 1.6rem;
+  background-color: var(--color-white);
+  position: relative;
+}
+
+.mobile-menu--icon::before,
+.mobile-menu--icon::after {
+  content: '';
+  height: 2px;
+  width: 1.6rem;
+  background-color: var(--color-white);
+  position: absolute;
+}
+
+.mobile-menu--icon::before {
+  top: 0;
+  transform: translateY(-0.5rem);
+}
+
+.mobile-menu--icon::after {
+  /* top: 0.5rem; */
+  top: 0;
+  transform: translateY(0.5rem);
 }
 
 /* Buttons */
