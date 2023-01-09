@@ -193,6 +193,7 @@ ul {
   grid-template-columns: repeat(2, 1fr);
   margin: 6rem auto;
   max-width: 100rem;
+  padding-inline: 2rem;
 }
 
 .directory__list-item {
@@ -248,18 +249,21 @@ ul {
 .footer__container {
   max-width: 100rem;
   margin: 2rem auto;
+  padding-inline: 2rem;
 }
 
 .footer__container-sections {
   display: flex;
   justify-content: space-between;
   margin: 2rem auto;
+  flex-wrap: wrap;
 }
 
 .footer__container-list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding: 2rem;
 }
 
 .contact-us {
@@ -281,8 +285,10 @@ ul {
 }
 
 .footer__copyright-container {
-  align-self: flex-end;
-  margin-top: 10rem;
+  align-self: center;
+  /* margin-top: 10rem; */
+  margin-top: 0;
+  padding-top: 2rem;
 }
 
 .footer__copyright {
