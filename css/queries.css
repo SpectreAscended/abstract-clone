@@ -48,4 +48,8 @@
   .heading--hero {
     font-size: 2rem;
   }
+
+  .footer__container-list {
+    padding: 0.5rem;
+  }
 }
