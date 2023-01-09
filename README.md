@@ -1,3 +1,3 @@
 # actract-clone
 
-This is a clone of the website help.abstract.com recreated by Cory Pollard.
+This is a clone of the website https://help.abstract.com/hc/en-us recreated by Cory Pollard.
