@@ -161,9 +161,6 @@ ul {
   text-align: center;
 }
 
-.mobile-help-center--request-container {
-}
-
 .mobile-help-center--request {
   border-bottom: 1px solid var(--color-white);
 }
@@ -202,6 +199,7 @@ ul {
   background-color: var(--color-primary);
   transition: all 250ms ease;
   margin-left: 0.25rem;
+  border: 1px solid var(--color-primary);
 }
 
 .btn--sign-in:hover,
