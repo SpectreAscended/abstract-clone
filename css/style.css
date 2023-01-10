@@ -126,6 +126,7 @@ ul {
 
 .mobile-menu.active .mobile-menu-icon--center {
   opacity: 0;
+  transform: scaleX(0);
 }
 
 .mobile-menu.active .mobile-menu-icon--top {
