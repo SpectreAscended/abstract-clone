@@ -14,6 +14,15 @@
     margin-top: 0.5rem;
   }
 
+  .mobile-help-center {
+    font-size: 1rem;
+    padding-block: 1.5rem;
+  }
+
+  .mobile-help-center-container {
+    margin-inline: 3rem;
+  }
+
   .section__hero {
     padding-inline: 1rem;
   }
@@ -35,6 +44,10 @@
   }
 
   .nav__mobile-sign-in-wrapper {
+    display: none;
+  }
+
+  .mobile-help-center {
     display: none;
   }
 
