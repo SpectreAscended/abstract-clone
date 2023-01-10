@@ -366,6 +366,7 @@ ul {
 .footer__container-list {
   display: flex;
   flex-direction: column;
+  align-content: flex-start;
   gap: 0.5rem;
   padding: 2rem;
 }
@@ -375,6 +376,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding-inline: 2rem;
 }
 
 .contact-us a:link,
