@@ -136,6 +136,10 @@ ul {
   transform: translateY(-2px) rotate(45deg);
 }
 
+.mobile-help-center-wrapper {
+  position: relative;
+}
+
 .mobile-help-center {
   background-color: var(--color-black);
   color: var(--color-white);
@@ -146,6 +150,10 @@ ul {
   font-size: 1.5rem;
   padding-block: 3rem;
   border-top: 1px solid var(--color-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .mobile-help-center-container {
